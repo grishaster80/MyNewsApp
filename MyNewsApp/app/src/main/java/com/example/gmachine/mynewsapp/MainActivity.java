@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         String result = null;
         try {
 
-            result = task.execute("https://newsapi.org/v2/top-headlines?country=us&apiKey=ce2cd1d879254e76a92848e15456e6dc").get();
+            result = task.execute("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=ce2cd1d879254e76a92848e15456e6dc").get();
 
         } catch (InterruptedException e) {
 
